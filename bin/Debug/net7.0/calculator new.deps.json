@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "calculator new/1.0.0": {
+        "dependencies": {
+          "UniversityLibrary": "1.0.0"
+        },
+        "runtime": {
+          "calculator new.dll": {}
+        }
+      },
+      "UniversityLibrary/1.0.0": {
+        "runtime": {
+          "UniversityLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "calculator new/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UniversityLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
