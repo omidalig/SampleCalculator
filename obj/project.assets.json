@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "UniversityLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/UniversityLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UniversityLibrary.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "UniversityLibrary/1.0.0": {
-      "type": "project",
-      "path": "../UniversityLibrary/UniversityLibrary.csproj",
-      "msbuildProject": "../UniversityLibrary/UniversityLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "UniversityLibrary >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\OZ\\.nuget\\packages\\": {},
@@ -65,11 +46,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\Projects\\DotinSchool\\Session1\\Students\\UniversityLibrary\\UniversityLibrary.csproj": {
-              "projectPath": "D:\\Projects\\DotinSchool\\Session1\\Students\\UniversityLibrary\\UniversityLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
